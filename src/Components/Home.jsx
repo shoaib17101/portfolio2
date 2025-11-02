@@ -65,8 +65,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="w-full lg: relative flex-col lg:flex-row flex overflow-hidden p-0  ">
-                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/hero-image.png" alt="" className="relative  " />
-                    <img src="https://www.svgrepo.com/show/404854/blue-circle.svg" className="md:w-[650px]  md:-right-15 top-20 lg:-right-10 md:top-25 absolute -z-10" alt="" />
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/hero-image.png" alt="" className="relative lg:left-80  " />
+                    <img src="https://www.svgrepo.com/show/404854/blue-circle.svg" className="md:w-[650px]  top-25 lg:-right-10  absolute -z-10" alt="" />
                 </div>
 
             </section>
@@ -174,15 +174,15 @@ export default function Home() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     quibusdam aliquam odit incidunt tempora? Quia, voluptate fugit.
                 </p>
-                <div className="w-full md:grid-cols-2 grid lg:gap-10 gap-5 justify-center">
-                    <div className='gap-4 flex flex-col  overflow-hidden max-h-[400px] px-5'>
-                        <img src={pic} className='h-[70%] rounded-lg object-cover object-top' alt="" />
+                <div className="w-full md:grid-cols-2 grid justify-center">
+                    <div className='gap-4 flex flex-col  overflow-hidden max-h-[400px] px-2'>
+                        <img src={pic} className='h-full rounded-lg object-cover object-top' alt="" />
                         <a href="https://shoaib17101.github.io/Portfolio/" className='hover:text-blue-700'> <h1 className="font-bold text-2xl">Personal Portfolio</h1></a>
                         <p className="font-bold text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi hic eos quisquam deleniti natus corrupti repellendus.</p>
 
                     </div>
-                    <div className='gap-4 flex flex-col  overflow-hidden max-h-[400px] px-5'>
-                        <img src={shop} className='h-[70%] rounded-lg object-cover object-top' alt="" />
+                    <div className='gap-4 flex flex-col  overflow-hidden max-h-[400px] px-2'>
+                        <img src={shop} className='h-full rounded-lg object-cover object-top' alt="" />
                         <a href="https://shoaib17101.github.io/JewelryShop/" className='hover:text-blue-700'><h1 className="font-bold text-2xl">Bling Jewelry Shop</h1></a>
                         <p className="font-bold text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi hic eos quisquam deleniti natus corrupti repellendus.</p>
 
@@ -196,13 +196,13 @@ export default function Home() {
         <>
             <section className='bg-[rgb(9,14,52)] flex py-20 flex-col lg:h-[500px] gap-5 items-center px-5'>
                 <h1 className='text-white text-3xl font-bold text-center'>Some of My Happy Clients</h1>
-                <p className="font-bold text-white text-lg lg:w-1/3 text-center">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
-                <div className=" w-full flex flex-wrap gap-5 justify-center px-5">
-                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/uideck.svg" alt=""className=' w-[120px] opacity-50 hover:opacity-100' />
-                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/tailgrids.svg" alt="" className='w-[120px] opacity-50 hover:opacity-100' />
-                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/lineicons.svg" alt="" className='w-[120px] opacity-50 hover:opacity-100' />
-                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/ayroui.svg" alt="" className='w-[120px] opacity-50 hover:opacity-100' />
-                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/plainadmin.svg" alt="" className='w-[170px]  opacity-50 hover:opacity-100' />
+                <p className="font-bold text-white text-lg lg:w-1/3 md:w-1/2 text-center">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+                <div className=" w-full flex flex-wrap gap-8 justify-center px-5">
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/uideck.svg" alt=""className=' w-[150px] opacity-50 hover:opacity-100' />
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/tailgrids.svg" alt="" className='w-[150px] opacity-50 hover:opacity-100' />
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/lineicons.svg" alt="" className='w-[150px] opacity-50 hover:opacity-100' />
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/ayroui.svg" alt="" className='w-[150px] opacity-50 hover:opacity-100' />
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/plainadmin.svg" alt="" className='w-[150px]  opacity-50 hover:opacity-100' />
                 </div>
             </section>
             <div className="bg-blue-600 md:w-3/4  md:mx-auto lg:h-[330px] rounded-lg relative lg:bottom-45 flex bottom-10 justify-center gap-3 py-20 items-center flex-col" >
@@ -220,7 +220,7 @@ export default function Home() {
             <section className='flex flex-col items-center w-full py-10 border-b'>
                 <h1 className="font-bold text-2xl font-sans text-blue-500 py-4"> Education & Experience </h1>
                 <h1 className="font-bold text-6xl py-2 "> My Resume </h1>
-                <p className="font-bold text-xl text-gray-500 md:w-1/3 text-center py-3">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+                <p className="font-bold text-xl text-gray-500 md:w-1/2 text-center py-3">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
                 <div className="w-full flex ">
                     <div className="flex   md:w-1/2 items-start gap-3 order-2 py-10 flex-col px-3">
                         <h1 className="font-bold text-2xl">Web Developer</h1>
@@ -281,8 +281,8 @@ export default function Home() {
             <section id='pricing' className='w-full flex flex-col gap-3 py-20 items-center'>
                 <h1 className="text-blue-500 font-bold text-xl">My Resume</h1>
                 <h1 className="font-bold text-[44px] font-tahoma">My Pricing Plans</h1>
-                <p className="font-bold text-xl text-gray-500 md:w-1/3 text-center py-3 px-4">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
-                <div className="grid md:grid-cols-3 mx-auto w-full gap-2">
+                <p className="font-bold text-xl text-gray-500 md:w-1/2 text-center py-3 px-4">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+                <div className="grid md:grid-cols-3 mx-auto w-full lg:w-2/3 gap-2">
                     <div className="flex flex-col py-10 justify-center  items-center hover:shadow-xl gap-2 rounded-xl">
                         <h1 className="font-bold text-2xl">Silver Package</h1>
                         <p className="font-bold text-md text-gray-500 p-5 text-center ">There are many Lorem ipsum dolor sit amet. Lorem, ipsum dolor. variations  consectetur adipisicing elit. Porro, amet necessitatibus.</p>
@@ -310,8 +310,8 @@ export default function Home() {
         <section className='flex flex-col items-center py-20'>
             <h1 className="text-blue-500 font-bold text-lg">Awesome Testimonials </h1>
             <h1 className="font-bold text-3xl md:text-[44px] font-sans">Hear From My Clients </h1>
-            <p className="font-bold text-xl text-gray-500 md:w-1/3 text-center py-3 px-4">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
-            <div className="grid md:grid-cols-2 gap-10 md:w-2/3">
+            <p className="font-bold text-xl text-gray-500 md:w-1/2 text-center py-3 px-4">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+            <div className="grid md:grid-cols-2 gap-5 lg:w-2/3 px-3">
                 <div className="flex flex-col gap-4 p-6 py-10 shadow-xl">
                     <h1 className="text-3xl font-bold">Testimonial 1</h1>
                     <p className="font-bold text-gray-500">Lorem ipsum Lorem ipsum dolor sit amet. Lorem ipsum dolor sit. dolor sit amet consectetur adipisicing elit. Delectus magni corporis dolorum repellat adipisci est.</p>
@@ -357,9 +357,9 @@ export default function Home() {
         <section className='flex flex-col items-center py-20'>
             <h1 className="text-blue-500 font-bold text-lg">Recent Posts </h1>
             <h1 className="font-bold text-xl md:text-[44px] ">From The Blog  </h1>
-            <p className="font-bold text-xl text-gray-500 px-4 md:w-1/3 text-center py-3">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
-            <div className="flex gap-4 justify-center px-3 flex-wrap">
-                <div className="card w-[400px]  shadow rounded-2xl">
+            <p className="font-bold text-xl text-gray-500 px-4 md:w-1/2 text-center py-3">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+            <div className="grid md:grid-cols-3 p-2 gap-4 justify-center px-3 ">
+                <div className="card lg:w-[400px]  shadow rounded-2xl">
                     <div className="card-body items-start ">
                         <figure >
                             <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/news-1.jpg " className=' p-0' alt="" />
@@ -369,7 +369,7 @@ export default function Home() {
                         <h2 className='underline font-bold text-lg'>See More</h2>
                     </div>
                 </div>
-                <div className="card w-[400px] py-4 shadow rounded-2xl">
+                <div className="card max-w-[400px] py-4 shadow rounded-2xl">
                     <div className="card-body items-start">
                         <figure >
                             <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/news-3.jpg" className=' p-0' alt="" />
@@ -379,7 +379,7 @@ export default function Home() {
                         <h2 className='underline font-bold text-lg'>See More</h2>
                     </div>
                 </div>
-                <div className="card w-[400px] py-4 shadow rounded-2xl">
+                <div className="card max-w-[400px] py-4 shadow rounded-2xl">
                     <div className="card-body items-start">
                         <figure >
                             <img src="https://portfolio-tailwind.preview.uideck.com/demos/personal/images/news-2.jpg " className=' p-0' alt="" />
@@ -397,7 +397,7 @@ export default function Home() {
         <section id='contact' className='flex flex-col py-20 items-center'>
             <h1 className="text-blue-500 font-bold text-lg">Contact With Me  </h1>
             <h1 className="font-bold text-2xl md:text-[44px] font-tahoma">Have an Project in Mind?  </h1>
-            <p className="font-bold text-lg text-gray-500 md:w-1/3 px-4 text-center py-3">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+            <p className="font-bold text-lg text-gray-500 md:w-1/2 px-4 text-center py-3">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
             <div className='md:w-1/2 flex flex-col items-center gap-4 p-2  w-full'>
                 <form action="" className='w-full grid md:grid-cols-2  gap-3'>
                     <input type="text" placeholder=' Your Name' className=' border-0 w-full input  input-lg p-4 bg-gray-100 ' name="" id="" />
@@ -414,12 +414,12 @@ export default function Home() {
     )
     const footer = (
         <section className='bg-[rgb(9,14,52)] flex md:flex-row flex-col px-3 py-5  flex-wrap gap-5 items-center justify-around '>
-            <div className="flex flex-col w-1/2 px-3 gap-2">
+            <div className="flex flex-col w-1/2 md:w-[300px]  px-3 gap-2">
             <h1 className="font-bold text-white text-3xl">Let's Talk!</h1>
             <p className="font-bold text-white text-md">
-            Contact Info 
-            closerpage@email.com 
-            12 Hilton St, Manchester M1 1JF
+            Contact Info <br />
+            closerpage@email.com <br />
+            12 Hilton St, Manchester M1 1JF <br />
             +44 012 34 5678
             </p>
             </div>
