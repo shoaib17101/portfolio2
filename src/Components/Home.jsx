@@ -6,7 +6,7 @@ import { FaPerson, FaPersonCircleQuestion } from 'react-icons/fa6'
 import { useState } from 'react'
 
 export default function Home() {
-    const [open,setopen]=useState(true)
+    const [open,setopen]=useState(false)
     const menu=(
         <>
         <div className={open?`flex flex-col p-2 fixed top-20 backdrop-blur-3xl w-full shadow  z-10  transition-all duration-500 ease-in-out`:`hidden`  }>
